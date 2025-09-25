@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Privacy Policy — Email AI Replier</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Privacy policy for Email AI Replier Chrome extension" />
+  <style>
+    body { font-family: Roboto, Arial, sans-serif; line-height: 1.6; margin: 24px; color:#111; }
+    header { border-bottom: 1px solid #e6e6e6; margin-bottom: 20px; }
+    h1 { margin: 0 0 6px 0; font-size: 28px; color:#1a73e8; }
+    h2 { margin-top: 20px; color: #222; }
+    p, li { font-size: 15px; }
+    .container { max-width: 900px; margin: 0 auto; }
+    .note { background:#f9f9f9; border-left:4px solid #1a73e8; padding:12px 14px; margin:12px 0; }
+    footer { margin-top:30px; border-top:1px solid #eee; padding-top:12px; color:#666; font-size:13px; }
+    a { color:#1a73e8; text-decoration:none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p><strong>Email AI Replier</strong> — Effective date: <strong>September 25, 2025</strong></p>
+    </header>
+
+    <p>This Privacy Policy explains how <strong>Email AI Replier</strong> (the "Extension") collects, uses, and shares information when you use the extension in Gmail. Please read carefully. If you do not agree with this policy, do not use the extension.</p>
+
+    <h2>Developer / Contact</h2>
+    <p>If you have questions or privacy concerns, contact: <a href="mailto:dsalman62@gmail.com">dsalman62@gmail.com</a>.</p>
+
+    <h2>What data the extension accesses</h2>
+    <p>The extension integrates with Gmail to generate suggested replies. To do that, it temporarily accesses the content of the email conversation shown in the compose/reply box. Specifically:</p>
+    <ul>
+      <li><strong>Personal communications:</strong> text of the email(s) needed to create a contextual reply (the last message or portion of the thread that the user wants a reply for).</li>
+      <li><strong>Website content:</strong> page content inside the Gmail compose UI required to identify the reply box and insert the generated reply.</li>
+    </ul>
+
+    <div class="note">
+      <strong>Important:</strong> The extension does not access or read your Gmail account beyond the email text that is visible in the compose/reply box where you click the AI Reply button.
+    </div>
+
+    <h2>How the data is used</h2>
+    <p>When you click the AI Reply button the extension sends the minimal email text required to our backend API for AI processing. The backend generates a suggested reply and returns plain text to the extension, which is then inserted into your compose box. The data is used only to generate the suggested reply.</p>
+
+    <h2>Third parties</h2>
+    <p>The extension communicates with a backend service hosted at <a href="https://email-ai-replier-t4vq.onrender.com" target="_blank">https://email-ai-replier-t4vq.onrender.com</a>. That service performs the AI generation. No third-party scripts are injected into your browser from this server.</p>
+
+    <h2>Do we collect personally identifiable or sensitive data?</h2>
+    <p>No. The extension is not designed to collect or store personal identifiers (name, address, passwords), financial data, health data, or authentication credentials. It may process email content which can contain identifying information only as necessary to produce a reply.</p>
+
+    <h2>Security</h2>
+    <p>We use reasonable technical and organizational measures to protect data in transit (HTTPS) and in processing. However, no system is completely secure. Do not transmit highly sensitive personal data unless necessary and you are comfortable with the risk.</p>
+
+    <h2>Legal bases & compliance</h2>
+    <p>If you are in regions with privacy laws (e.g., GDPR), the processing of email content for generating replies may be based on your consent (clicking the AI Reply button) and our legitimate interest to provide the service. Contact us if you need data access or deletion assistance.</p>
+
+    <h2>Children</h2>
+    <p>The extension is not directed to children under 13 and we do not knowingly collect data from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>We may update this policy occasionally. We will publish the date of the latest changes here. Continued use after changes means you accept the revised policy.</p>
+
+    <h2>How to request deletion or ask questions</h2>
+    <p>Contact us at: <a href="mailto:dsalman62@gmail.com">dsalman62@gmail.com</a>. Include details about the request (time, example email text if relevant) and we will respond within a reasonable time.</p>
+
+    <footer>
+      <p>© <span id="year"></span> Email AI Replier. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
